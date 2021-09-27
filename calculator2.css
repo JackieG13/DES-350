@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+html,operator,number{
+   padding: 0;
+   margin: 0;
+   font-size: 100%;
+   font-weight: normal;
+    list-style: none;
+ }
+
+
+
+body {
+    font-family: 'Roboto Slab', sans-serif; 
+    font-size: 24px;
+    font-weight: 200px; 
+}
+#display{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+	font-color:black;
+}
+
+.number1 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+	font-color:white;
+}
+.number2 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 10px;
+	font-color:white;
+}
+.number3 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+.number4 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+.number5 {
+    font-size: 100px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+.number6{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+
+.number7 {
+    font-size: 75px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+.number8{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+.number9 {
+    font-size: 100px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+.number0 {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+.number4{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+.operator4 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+
+.operator5 {
+    font-size: 75px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+.operator6 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
+
+.operator7 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 20px;
+	font-color:white;
+}
