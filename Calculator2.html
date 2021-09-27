@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap" rel="stylesheet">
+<link href="Calculator2.css" rel="stylesheet" type="text/css">
+<title>calculator2</title>
+	<style> 
+		
+		Body{ background-color:white;
+			margin: 0;
+   
+}
+
+		
+		
+		
+		#myCalculator{
+			margin-left: calc(50% - 300px);
+		}
+		
+		#display{
+			
+			background-color: yellow;
+			text-align: left;
+			font-family: Times, "Times New Roman", "serif";
+			padding:30px;
+			margin: 350px;
+			position:fixed;
+			left:25%;
+			width:200px;
+			height: 200px;
+			border-radius: 200px;
+		}
+		
+		
+		
+		
+		
+			.number1{
+			width: 100px;
+			height: 100px;
+			background-color:#17783C;
+			padding:30px;
+			margin: 350px;
+			position:fixed;
+			left:15%;
+			top:15%;
+			width:200px;
+			height: 100px;
+		}
+		.number2{ 
+		width: 100px;
+			height: 100px;
+			background-color:#FFF200;
+			padding:30px;
+			margin: 350px;
+			position:fixed;
+			left:15%;
+			top:25%;
+			width:180px;
+			height: 10px;
+		    border-radius:200px; }
+	
+		
+		
+		
+		.number3{ 
+			height:5px;
+			background-color:#721D26;
+			padding:30px;
+			margin: 359px;
+			position:fixed;
+			left:5%;
+			top:29%;
+			
+			width:300px;
+			height: 5px;
+		      }
+	
+		.number4{
+			background-color:#4DC3F1;
+			padding:30px;
+			margin: 500px;
+			position:fixed;
+			right:50%; 
+			top:29%;
+			width:5px;
+			height: 300px;
+		}
+		
+	
+	        .number5{ 
+		   
+			background-color:#FCBF7C;
+		    padding:20px;
+	        margin: 10px;
+	        width:205px;
+	        height: 205px;
+		    position:fixed;
+			right:45%;
+			top:60%;
+		    }
+		
+		.number6{ 
+		    
+			background-color:#9A19E1;
+		    padding:20px;
+	        margin: 350px;
+	        width:185px;
+	        height:100px;
+		    position:fixed;
+			top:35%;
+		    right:15% 
+		    }
+		
+		.number7{
+			width: 100px;
+			height: 100px;
+			background-color:#17783C;
+			margin: 350px;
+			position:fixed;
+			right:1%;
+			top:5%;
+			width:205px;
+			height:205px;
+			border-radius:300px;
+		}
+		
+		.number8{height:5px;
+			background-color:#4DC3F1;
+			padding:60px;
+			margin: 500px;
+			position:fixed;
+			left:48%; 
+			top:3%;
+			width:10px;
+			height: 300px;
+		}
+		.number9{background-color: #FCBF7C;
+			padding:20px;
+	        margin: 10px;
+	        width:300px;
+	        height:300px;
+			position:fixed;
+			right:4%;
+			top:25%;
+		}
+		.number0{background-color: #ED1C24;
+			padding:20px;
+	        margin: 10px;
+	        width:100px;
+	        height:100px;
+			position:fixed;
+			right:3.8%;
+			top:16%;
+		}
+		
+		
+		.operator1{width: 400px;
+			height: 50px;
+			background-color: #EC008C;
+			margin-left: 0px;
+			padding:30px;
+			margin: 500px;
+			position:fixed;
+			left:20%; 
+			top:29%;
+			
+		}
+			
+		.operator2{width: 200px;
+			height: 50px;
+			background-color: #4DEF48;
+			margin-left: 0px;
+			position:fixed;
+			right:1%; 
+			top:90%;	
+		}	
+		
+		
+		.operator3{background-color:#17783C;
+			position:fixed;
+			left:25%; 
+			bottom:10%;
+			width:50px;
+			height:50px;	
+		}
+		
+		.operator4 {background-color: #ED1C24;
+			padding:20px;
+	        margin: 10px;
+	        width:200px;
+	        height:200px;
+			position:fixed;
+			left:1%;
+			top:25%;
+		}
+			
+		.operator5{background-color: #EC008C;
+	        width:400px;
+	        height:100px;
+			position:fixed;
+			left:8%;
+			top:20%;
+		}
+		
+		.operator6{background-color: #FDD800;
+	        width:100px;
+	        height:100px;
+			border-radius:200px;
+			position:fixed;
+			left:30%;
+			top:40%;}
+		
+		.operator7{background-color:#4DEF48;
+			
+			position:fixed;
+			left:15%; 
+			bottom:50%;
+			width:50px;
+		height: 200px;}
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	
+	<form name="calculator">
+	
+	<div id= "myCalculator">
+		
+	<div id="top_display">
+	<input type= "text" name= "display" id="display"
+     disabled>
+	</div>										
+													
+	<div class= "inputRow">	
+	
+	<input type="button" class="number1" value="1"
+		onclick= "calculator.display.value +='1'" display>
+							  
+	<input type="button" class="number2" value="2"
+		onclick= "calculator.display.value +='2'">
+							  
+	<input type="button" class="number3" value="3"
+		onclick= "calculator.display.value +='3'">
+	<input type="button" class="operator7" name="equals"	
+	   value="+" onclick= "calculator.display.value += '+'"	>
+	
+		
+	 </div>
+		
+		<div class= "input">	
+			
+	<input type="button" class="number4" value="4"
+		onclick= "calculator.display.value +='4'">
+			
+		<input type="button" class="number5" value="5"
+		onclick= "calculator.display.value +='5'">
+		<input type="button" class="number6" value="6"
+		onclick= "calculator.display.value +='6'">
+		<input type="button" class="operator6" name="equals"	
+	   value="-" onclick= "calculator.display.value += '-'"	>
+	
+		</div>
+		
+		<div class= "input">	
+			
+	<input type="button" class="number7" value="7"
+		onclick= "calculator.display.value +='7'">
+		
+		<input type="button" class="number8" value="8"
+		onclick= "calculator.display.value +='8'">
+			
+			<input type="button" class="number9" value="9"
+		onclick= "calculator.display.value +='9'">
+			
+			<input type="button" class="operator5" name="multi"	
+	   value="*" onclick= "calculator.display.value += '*'"	>
+	
+		</div>
+		
+		
+		
+		
+<div class= "input">
+	
+<input type="button" class="number0" value="0"
+		onclick= "calculator.display.value +='0'">
+
+<input type="button" class="operator2" name="Decimal"	
+	   value="Decimal" onclick= "calculator.display.value += '.'"	>
+	
+	<input type="button" class="operator4" name="divide"	
+	   value="/" onclick= "calculator.display.value+= '/'"	>
+	
+	 <input type="button" class="operator3" name="clear"	
+	   value="Clear" onclick= "calculator.display.value= ''"	>
+	
+	
+	
+		</div>
+	
+<div class= "input">		
+<input type="button" class="operator1" name="equals"	
+	   value="equals" onclick= "calculator.display.value=eval(calculator.display.value)">	</div>		
+	
+
+</div>	
+</form>	
+</body>
+</html>
